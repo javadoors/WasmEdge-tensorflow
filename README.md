@@ -94,9 +94,9 @@ cmake -DWASMEDGE_CORE_PATH=<path/to/WasmEdge/source> -DCMAKE_BUILD_TYPE=Release 
 ```
 
 The shared library `build/lib/libwasmedge-tensorflow_c.so` is the C API to create the `wasmedge-tensorflow` import object.
-The header `build/include/wasmedge-tensorflow.h` is the header of the `libwasmedge-tensorflow_c.so` shared library.
+The header `build/include/wasmedge/wasmedge-tensorflow.h` is the header of the `libwasmedge-tensorflow_c.so` shared library.
 The shared library `build/lib/libwasmedge-tensorflowlite_c.so` is the C API to create the `wasmedge-tensorflowlite` import object.
-The header `build/include/wasmedge-tensorflowlite.h` is the header of the `libwasmedge-tensorflowlite_c.so` shared library.
+The header `build/include/wasmedge/wasmedge-tensorflowlite.h` is the header of the `libwasmedge-tensorflowlite_c.so` shared library.
 The static library `build/lib/libwasmedgeHostModuleWasmEdgeTensorflow.a` is for executables linking in CMake.
 The static library `build/lib/libwasmedgeHostModuleWasmEdgeTensorflowLite.a` is for executables linking in CMake.
 
